@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 640" width="900" height="640" font-family="Segoe UI, Arial, sans-serif">
+<title>Diagrama UML de casos de uso - Sistema de Biblioteca</title>
+<defs><marker id="abierta" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#475569" stroke-width="1.6"/></marker></defs>
+<rect width="900" height="640" fill="#ffffff"/>
+<rect x="210" y="20" width="670" height="605" rx="14" fill="#f4faf7" stroke="#14532d" stroke-width="2"/>
+<text x="545" y="46" text-anchor="middle" font-size="16" font-weight="700" fill="#14372a">Sistema: Biblioteca</text>
+<g stroke="#14372a" stroke-width="3" fill="none" stroke-linecap="round"><circle cx="80" cy="250" r="22" fill="#bbf7d0"/><line x1="80" y1="272" x2="80" y2="350"/><line x1="30" y1="300" x2="130" y2="300"/><line x1="80" y1="350" x2="40" y2="410"/><line x1="80" y1="350" x2="120" y2="410"/></g>
+<text x="80" y="440" text-anchor="middle" font-size="16" font-weight="700" fill="#14372a">Usuario</text>
+<text x="80" y="460" text-anchor="middle" font-size="12" fill="#475569">(socio, sin login)</text>
+<g stroke="#14372a" stroke-width="1.8" fill="none">
+<line x1="108" y1="305" x2="226" y2="90"/>
+<line x1="108" y1="305" x2="226" y2="175"/>
+<line x1="108" y1="305" x2="226" y2="265"/>
+<line x1="108" y1="305" x2="226" y2="385"/>
+<line x1="108" y1="305" x2="226" y2="485"/>
+<line x1="108" y1="305" x2="226" y2="575"/>
+</g><g stroke="#475569" stroke-width="1.6" fill="none" stroke-dasharray="7 5" marker-end="url(#abierta)">
+<line x1="440" y1="265" x2="575" y2="225"/>
+<line x1="440" y1="385" x2="575" y2="385"/>
+<line x1="440" y1="575" x2="575" y2="575"/>
+<line x1="575" y1="305" x2="440" y2="270"/>
+<line x1="575" y1="465" x2="440" y2="390"/>
+</g>
+<ellipse cx="340" cy="90" rx="115" ry="32" fill="#dcfce7" stroke="#15803d" stroke-width="2"/><text x="340" y="95" text-anchor="middle" font-size="14" font-weight="600" fill="#14372a">CU-01 Buscar libros</text>
+<ellipse cx="340" cy="175" rx="115" ry="32" fill="#dcfce7" stroke="#15803d" stroke-width="2"/><text x="340" y="180" text-anchor="middle" font-size="14" font-weight="600" fill="#14372a">CU-02 Consultar disponibilidad</text>
+<ellipse cx="340" cy="265" rx="115" ry="32" fill="#dcfce7" stroke="#15803d" stroke-width="2"/><text x="340" y="270" text-anchor="middle" font-size="14" font-weight="600" fill="#14372a">CU-03 Realizar préstamo</text>
+<ellipse cx="340" cy="385" rx="115" ry="32" fill="#dcfce7" stroke="#15803d" stroke-width="2"/><text x="340" y="390" text-anchor="middle" font-size="14" font-weight="600" fill="#14372a">CU-04 Devolver libro</text>
+<ellipse cx="340" cy="485" rx="115" ry="32" fill="#dcfce7" stroke="#15803d" stroke-width="2"/><text x="340" y="490" text-anchor="middle" font-size="14" font-weight="600" fill="#14372a">CU-05 Ver mis préstamos</text>
+<ellipse cx="340" cy="575" rx="115" ry="32" fill="#dcfce7" stroke="#15803d" stroke-width="2"/><text x="340" y="580" text-anchor="middle" font-size="14" font-weight="600" fill="#14372a">CU-06 Agregar libro</text>
+<ellipse cx="700" cy="225" rx="125" ry="26" fill="#fff" stroke="#16a34a" stroke-width="1.6"/><text x="700" y="230" text-anchor="middle" font-size="13" fill="#14372a">Verificar reglas del préstamo</text>
+<ellipse cx="700" cy="305" rx="125" ry="26" fill="#fff" stroke="#16a34a" stroke-width="1.6"/><text x="700" y="310" text-anchor="middle" font-size="13" fill="#14372a">Rechazar préstamo (409)</text>
+<ellipse cx="700" cy="385" rx="125" ry="26" fill="#fff" stroke="#16a34a" stroke-width="1.6"/><text x="700" y="390" text-anchor="middle" font-size="13" fill="#14372a">Liberar la copia</text>
+<ellipse cx="700" cy="465" rx="125" ry="26" fill="#fff" stroke="#16a34a" stroke-width="1.6"/><text x="700" y="470" text-anchor="middle" font-size="13" fill="#14372a">Rechazar devolución repetida</text>
+<ellipse cx="700" cy="575" rx="125" ry="26" fill="#fff" stroke="#16a34a" stroke-width="1.6"/><text x="700" y="580" text-anchor="middle" font-size="13" fill="#14372a">Validar datos</text>
+<text x="470" y="236" font-size="11" font-style="italic" fill="#475569">«include»</text>
+<text x="470" y="380" font-size="11" font-style="italic" fill="#475569">«include»</text>
+<text x="470" y="570" font-size="11" font-style="italic" fill="#475569">«include»</text>
+<text x="470" y="300" font-size="11" font-style="italic" fill="#475569">«extend»</text>
+<text x="470" y="440" font-size="11" font-style="italic" fill="#475569">«extend»</text>
+</svg>
